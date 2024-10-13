@@ -129,7 +129,7 @@ body {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
   }
   .social-media li {
     list-style-type: none;
