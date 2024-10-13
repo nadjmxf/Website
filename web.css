@@ -1,0 +1,145 @@
+body {
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  h1, h2, h4 {
+    color: #7a558f;
+  }
+  header{
+    display: inline;
+  }
+  .jumbotron {
+    font-size: 40px;
+    padding: 60px;
+    background-color: #877293;
+    text-align: center;
+    color: white;
+  }
+  nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+  }
+  nav li {
+    list-style-type: none;
+  }
+  nav {
+    background-color: #7a558f;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+  nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+    margin-inline: auto;
+  }
+  nav a:hover{
+    font-weight: bold;
+    background-color: white;
+    color:#7a558f;
+  }
+  #content{
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+  }
+  aside{
+    flex: 1;
+  }
+  #characteristics header{
+    text-align: center;
+  }
+  .featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  @media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap;
+      }
+    main aside {
+        align-self: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav ul {
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 1rem;
+    }
+    main aside {
+      align-self: stretch;
+    }
+  }
+  #strengths ul, #challenges ul{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1rem;
+  }
+  #strengths li, #challenges li, footer li{
+    list-style-type: none;
+  }
+  #strengths li p, #challenges li p{
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    background-color: #7a558f;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  #strengths li:hover p, #challenges li:hover p{
+    background-color: #877293;
+  }
+  footer{
+    padding: 20px;
+    color: white;
+    background-color: #877293;
+    text-align: center;
+    font-weight: bold;
+  }
+  .social-media ul {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .social-media li {
+    list-style-type: none;
+  }
+  .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+  }
+  .social-media li a:hover {
+    color:#6c348d;
+  }
