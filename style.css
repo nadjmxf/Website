@@ -1,5 +1,5 @@
 body {
-    font-family: 'Afacad', sans-serif;
+    font-family: 'Jost', sans-serif;
     padding: 0;
     margin: 0;
   }
@@ -33,7 +33,7 @@ body {
     list-style-type: none;
   }
   nav {
-    background-color: #877293;
+    background-color: #8772d9;
     padding: 5px;
     position: sticky;
     top: 0;
